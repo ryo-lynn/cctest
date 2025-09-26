@@ -13,6 +13,7 @@
 ### ビルド
 ```bash
 docker build -t lucky10 .
+```
 
 ### 実行
 
@@ -21,4 +22,3 @@ echo 1 | docker run --rm -i lucky10
 echo 5 | docker run --rm -i lucky10
 echo 1024 | docker run --rm -i lucky10
 ```
-
